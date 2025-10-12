@@ -9,7 +9,23 @@
 }
 
 body{
-    background-color: darkblue;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, 
+        rgba(9, 9, 121, 1) 35%, rgba(116, 4, 202, 1) 
+        75%, rgba(64, 0, 255, 1) 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+/* Gradient Animation */
+@keyframes gradientAnimation {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
 }
 
 h2{
@@ -18,15 +34,14 @@ h2{
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    color: #333;
+    color: #000000;
 }
-
+/* Navigation Bar*/
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 ul li {
@@ -35,12 +50,62 @@ ul li {
 
 ul li a {
   display: block;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 ul li a:hover{
- background-color: antiquewhite;
+ background-color: rgba(250, 235, 215, 0.151);
 }
+
+h1{
+    font-family: "Google Sans Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 3em;
+    font-style: normal;
+    color: #000000;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-content{
+    max-width: 60%;
+}
+
+#crestImage{
+    max-height: 800px;
+    width: auto ;
+    height: 200%;
+    object-fit: contain;
+}
+
+
+/*Cards*/
+.card{
+    background-color: rgba(250, 235, 215, 0.151);
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
