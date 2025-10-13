@@ -11,7 +11,7 @@
 body{
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, 
         rgba(9, 9, 121, 1) 35%, rgba(116, 4, 202, 1) 
-        75%, rgba(64, 0, 255, 1) 100%);
+        75%, rgb(69, 0, 97) 100%);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
 }
@@ -34,7 +34,7 @@ h2{
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 /* Navigation Bar*/
 ul{
@@ -68,6 +68,10 @@ h1{
     font-weight: 800;
     font-size: 3em;
     font-style: normal;
+    color: #ffffff;
+}
+
+h3{
     color: #000000;
 }
 
@@ -85,7 +89,7 @@ header{
 }
 
 #crestImage{
-    max-height: 800px;
+    max-height: 400px;
     width: auto ;
     height: 200%;
     object-fit: contain;
@@ -100,6 +104,15 @@ header{
     padding: 20px;
     margin: 20px;
     text-align: center;
+    color: #000000;
+}
+
+.cardProject{
+    background-color: rgba(250, 235, 215, 0.151);
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
     color: #000000;
 }
 
