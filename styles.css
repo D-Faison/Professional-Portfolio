@@ -116,9 +116,16 @@ header{
     color: #000000;
 }
 
-img{
+.card img{
     height: 100px;
     width: 100px;
     margin: 5px;
 }
 
+/*Slide Show*/
+
+.imageSlide img{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
